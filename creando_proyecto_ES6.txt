@@ -1,0 +1,20 @@
+1: Crear carpeta de proyecto
+2: Crear subcarpetas(src, outputs) donde se van a almacenar los archivos de es6 y js respectivamente.
+3: Crear un archivo package.json(poner dentro del archivo {} ) para las dependencias de NodeJS.
+4: Ejecutar el siguiente comando : npm install --save-dev @babel/core @babel/cli @babel/preset-env
+5: Escribimos el sigte codigo en el archivo package.json:
+  	"scripts": {
+    		"build": "babel src -d output"
+  	} 
+Lo que seria : Cuando ejecutamos el comando npm run build lo que va a hacer es lo sigte
+  		quiero ejecutar babel, y que encuentre la carpeta src y acceda a todos los archivos 
+  		Y que los exporte COMPILADO a la carpeta output 
+
+6: Creamos un archivo llamado .babelrc en la carpeta raiz y escribimos el sigte codigo dentro del el:
+	{
+    		"presets": ["@babel/preset-env"]
+	}
+
+ 
+
+

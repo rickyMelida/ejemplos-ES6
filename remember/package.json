@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  },
+  
+  //Cuando ejecutamos el comando npm run build lo que va a hacer es lo sigte
+  //quiero ejecutar babel, y que encuentre la carpeta src y acceda a todos los archivos 
+  //Y que los exporte COMPILADO a la carpeta output 
+  "scripts": {
+    "build": "babel src -d output"
+  }
+}
