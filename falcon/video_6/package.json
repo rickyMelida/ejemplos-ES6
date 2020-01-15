@@ -1,0 +1,21 @@
+{
+  "name": "video_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "webpack",
+    "start" : "webpack-dev-server --output-public-path=/build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
